@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Project</title>
+</head>
+<body>
+<h1 id="titel">Hello</h1>
+<button onclick="changeText()">click here</button>
+<script>
+    function changeText() {
+       let titel = document.getElementById("titel");
+       titel.innerText = "You clicked the button!";
+       titel.style.color = "green";
+    }
+</script>
+</body>
+</html>
